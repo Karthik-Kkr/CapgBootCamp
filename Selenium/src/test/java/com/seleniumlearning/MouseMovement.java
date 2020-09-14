@@ -26,12 +26,12 @@ public class MouseMovement {
 
 		Actions action = new Actions(driver);
 				
-		WebElement element=driver.findElement(
-				By.xpath("//*[@id=\"menu_admin_Job\"]"));
-		
-		WebElement element1=driver.findElement(
-				By.xpath("//*[@id=\"menu_admin_jobCategory\"]"));
+		WebElement element=driver.findElement(By.xpath("//*[@id=\"menu_admin_Job\"]"));
+		WebElement element1=driver.findElement(By.xpath("//*[@id=\"menu_admin_jobCategory\"]"));
 		action.moveToElement(element).perform();
 		action.moveToElement(element1).click().build().perform();
 	}
-}
+}//*[@id="resultTable"]/thead/tr/th[2]
+//*[@id="menu_admin_viewAdminModule"]/b
+//*[@id="menu_admin_Job"]
+//*[@id="resultTable"]/thead/tr/th[2]

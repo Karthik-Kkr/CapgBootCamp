@@ -4,6 +4,8 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class HeadLessBrowser {
 	public static void main(String[] args) {
 		

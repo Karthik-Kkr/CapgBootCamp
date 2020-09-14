@@ -14,13 +14,12 @@ public class OrangeHrmLogin {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
 		driver.get("https://www.facebook.com/");
+		System.out.println("the title of page is:" + driver.getTitle());
 		driver.navigate().to("https://opensource-demo.orangehrmlive.com/");
-		Thread.sleep(3000);
+		System.out.println("the title of page is:" + driver.getTitle());
+//		Thread.sleep(3000);
 		driver.navigate().back();
 		System.out.println("the title of page is:" + driver.getTitle());
-		
-//		WebDriver driver=new ChromeDriver();
-//		driver.get("https://opensource-demo.orangehrmlive.com/");
 
 	}
 }

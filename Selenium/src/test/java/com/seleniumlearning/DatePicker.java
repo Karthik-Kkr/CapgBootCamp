@@ -19,7 +19,8 @@ public class DatePicker {
 		driver.get("https://www.redbus.in/");
 		driver.findElement(By.xpath("//*[@id=\'search\']/div/div[3]/div/label")).click();
         driver.findElement(By.xpath("//*[@id=\"rb-calendar_onward_cal\"]/table/tbody/tr[1]/td[3]/button")).click();
+        driver.findElement(By.xpath("//*[@id=\"rb-calendar_onward_cal\"]/table/tbody/tr[5]/td[7]")).click();
         driver.findElement(By.xpath("//*[@id=\"rb-calendar_onward_cal\"]/table/tbody/tr[5]/td[5]")).click();
 	}
-
 }//*[@id="rb-calendar_onward_cal"]/table/tbody/tr[5]/td[5]
+

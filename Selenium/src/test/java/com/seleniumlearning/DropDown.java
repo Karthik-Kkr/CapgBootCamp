@@ -20,13 +20,12 @@ public class DropDown {
 		driver.findElement(By.id("txtPassword")).sendKeys("admin123");
 		driver.findElement(By.id("btnLogin")).click();
 		driver.findElement(By.xpath("//*[@id='menu_admin_viewAdminModule']")).click();
-		driver.findElement(By.xpath("/html/body/div[1]/div[3]/div[1]/div[2]/form/fieldset/ol/li[1]/input"));
+//		driver.findElement(By.xpath("/html/body/div[1]/div[3]/div[1]/div[2]/form/fieldset/ol/li[1]/input"));
 		driver.findElement(By.id("searchSystemUser_userName")).sendKeys("Karthik");
 		Select select= new Select(driver.findElement(By.xpath("//*[@id='searchSystemUser_userType']")));
 		select.selectByVisibleText("Admin");
 		driver.findElement(By.id("searchSystemUser_employeeName_empName")).sendKeys("Karthik");
 		Select select1= new Select(driver.findElement(By.xpath("//*[@id='searchSystemUser_status']")));
-		select1.selectByValue("0");
+		select1.selectByValue("1");
 	}
-
 }
