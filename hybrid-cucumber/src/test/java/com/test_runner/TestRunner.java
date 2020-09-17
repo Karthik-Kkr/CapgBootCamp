@@ -9,7 +9,7 @@ import com.vimalselvam.cucumber.listener.Reporter;
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
-//	@RunWith(Cucumber.class)
+	@RunWith(Cucumber.class)
 	@CucumberOptions(
 			features = "src/test/resources/features",
 					plugin = {"pretty",

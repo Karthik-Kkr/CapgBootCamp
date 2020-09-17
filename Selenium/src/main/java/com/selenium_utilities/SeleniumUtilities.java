@@ -28,7 +28,7 @@ public class SeleniumUtilities {
 				}catch(Exception e) {
 					System.out.println("Exception during taking screenshot ");
 					
-				}
+		}
 				
 			}
 			
