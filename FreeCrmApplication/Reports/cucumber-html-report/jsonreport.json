@@ -1,0 +1,132 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-18T07:08:25.417Z",
+        "line": 3,
+        "name": "To test the login functionality of FreeCrm",
+        "description": "",
+        "id": "to-test-the-freecrm-application;to-test-the-login-functionality-of-freecrm",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10013576500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To launch the browser and Navigate to the Url",
+            "match": {
+              "location": "com.step_definition.FreeCrmLoginSteps.to_launch_the_browser_and_Navigate_to_the_Url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8129173000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To Enter Username and Password",
+            "match": {
+              "location": "com.step_definition.FreeCrmLoginSteps.to_Enter_Username_and_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 85744000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To Click the Submit button",
+            "match": {
+              "location": "com.step_definition.FreeCrmLoginSteps.to_Click_the_Submit_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 361135000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To Take the Screenshot and the Title",
+            "match": {
+              "location": "com.step_definition.FreeCrmLoginSteps.to_Take_the_Screenshot_and_the_Title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2077761400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To open home page",
+            "match": {
+              "location": "com.step_definition.FreeCrmLoginSteps.to_open_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 763295300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "To open calender page",
+            "match": {
+              "location": "com.step_definition.FreeCrmLoginSteps.to_open_calender_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 712287000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "To open contacts page",
+            "match": {
+              "location": "com.step_definition.FreeCrmLoginSteps.to_open_contacts_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 646826000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "To open companies page",
+            "match": {
+              "location": "com.step_definition.FreeCrmLoginSteps.to_open_companies_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 677647500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "To open deals page",
+            "match": {
+              "location": "com.step_definition.FreeCrmLoginSteps.to_open_deals_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To test the FreeCrm Application",
+    "description": "",
+    "id": "to-test-the-freecrm-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/FreeCrm.feature",
+    "tags": []
+  }
+]
