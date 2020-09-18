@@ -21,12 +21,12 @@ public class Library {
 	public static WebDriver driver;
 	public static Properties properties;
 	public static Logger logger;
-	
-	public Library(){
-		properties=new Properties();
+
+	public Library() {
+		properties = new Properties();
 		
 		try {
-			InputStream inputStream = new FileInputStream("./src/test/resources/Config.property/Config.property");
+			InputStream inputStream = new FileInputStream("./src/test/resources/config.property/Config.property");
 			try {
 				properties.load(inputStream);
 			} 
@@ -37,10 +37,13 @@ public class Library {
 		catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
+
 		logger = Logger.getLogger(Library.class);
 		PropertyConfigurator.configure("./src/test/resources/log4j.property/log4j.property");
+
 	}
-public static void browserSetUp() {
+
+	public static void browserSetUp() {
 		
 		logger.info("Starting with Browser Set Up");
 		String browser = properties.getProperty("browser");
@@ -64,7 +67,6 @@ public static void browserSetUp() {
 			driver = new InternetExplorerDriver();
 			logger.info(String.format("Identified the browser as %s. Launching the browser", browser));
 			break;
-			
 		case "headlessbrowser":
 			WebDriverManager.chromedriver().setup();
 			ChromeOptions options=new ChromeOptions();
@@ -81,13 +83,11 @@ public static void browserSetUp() {
 		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.get(url);
-		logger.info("Launched the free CRM Application");
+		logger.info("Launched the OrangeHRM Application");
 	}
 
 	public static void tearDown() {
 		driver.quit();
 		logger.info("Exiting the application and closing the browser");
 	}
-
 }
-
