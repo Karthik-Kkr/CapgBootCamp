@@ -48,3 +48,4 @@
 2020-09-18 12:38:35,516 [main] INFO com.base_class.Library - browser launched
 2020-09-18 12:38:43,662 [main] INFO com.base_class.Library - Entered Username and Password
 2020-09-18 12:38:44,110 [main] INFO com.base_class.Library - Screenshot was clicked after login
+2020-09-18 14:03:09,325 [main] INFO com.base_class.Library - Starting with Browser Set Up

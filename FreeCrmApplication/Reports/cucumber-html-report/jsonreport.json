@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-09-18T07:08:25.417Z",
+        "start_timestamp": "2020-09-18T08:33:09.001Z",
         "line": 3,
         "name": "To test the login functionality of FreeCrm",
         "description": "",
@@ -13,8 +13,9 @@
         "steps": [
           {
             "result": {
-              "duration": 10013576500,
-              "status": "passed"
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"String.toLowerCase()\" because \"browser\" is null\r\n\tat com.base_class.Library.browserSetUp(Library.java:49)\r\n\tat com.step_definition.FreeCrmLoginSteps.to_launch_the_browser_and_Navigate_to_the_Url(FreeCrmLoginSteps.java:18)\r\n\tat ✽.To launch the browser and Navigate to the Url(file:///C:/Users/karth/git/freecrm/FreeCrmApplication/src/test/resources/features/FreeCrm.feature:4)\r\n",
+              "duration": 213428500,
+              "status": "failed"
             },
             "line": 4,
             "name": "To launch the browser and Navigate to the Url",
@@ -25,8 +26,8 @@
           },
           {
             "result": {
-              "duration": 8129173000,
-              "status": "passed"
+              "duration": 2993300,
+              "status": "skipped"
             },
             "line": 5,
             "name": "To Enter Username and Password",
@@ -37,8 +38,8 @@
           },
           {
             "result": {
-              "duration": 85744000,
-              "status": "passed"
+              "duration": 2026400,
+              "status": "skipped"
             },
             "line": 6,
             "name": "To Click the Submit button",
@@ -49,8 +50,8 @@
           },
           {
             "result": {
-              "duration": 361135000,
-              "status": "passed"
+              "duration": 996300,
+              "status": "skipped"
             },
             "line": 7,
             "name": "To Take the Screenshot and the Title",
@@ -61,8 +62,8 @@
           },
           {
             "result": {
-              "duration": 2077761400,
-              "status": "passed"
+              "duration": 941200,
+              "status": "skipped"
             },
             "line": 8,
             "name": "To open home page",
@@ -73,8 +74,8 @@
           },
           {
             "result": {
-              "duration": 763295300,
-              "status": "passed"
+              "duration": 1119700,
+              "status": "skipped"
             },
             "line": 9,
             "name": "To open calender page",
@@ -85,8 +86,8 @@
           },
           {
             "result": {
-              "duration": 712287000,
-              "status": "passed"
+              "duration": 995700,
+              "status": "skipped"
             },
             "line": 10,
             "name": "To open contacts page",
@@ -97,8 +98,8 @@
           },
           {
             "result": {
-              "duration": 646826000,
-              "status": "passed"
+              "duration": 997400,
+              "status": "skipped"
             },
             "line": 11,
             "name": "To open companies page",
@@ -109,8 +110,8 @@
           },
           {
             "result": {
-              "duration": 677647500,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 12,
             "name": "To open deals page",
