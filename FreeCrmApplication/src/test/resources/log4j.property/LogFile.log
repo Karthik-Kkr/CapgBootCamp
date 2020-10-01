@@ -1,0 +1,60 @@
+2020-09-17 23:11:05,830 - com.base_class.Library -INFO - Starting with Browser Set Up
+2020-09-17 23:11:11,730 - com.base_class.Library -INFO - Identified the browser as chrome. Launching the browser
+2020-09-17 23:11:16,164 - com.base_class.Library -INFO - Launched the OrangeHRM Application
+2020-09-17 23:11:16,165 - com.base_class.Library -INFO - Browser launched
+2020-09-17 23:11:23,199 - com.base_class.Library -INFO - login successful
+2020-09-18 00:00:55,192 - com.base_class.Library -INFO - Starting with Browser Set Up
+2020-09-18 00:00:59,697 - com.base_class.Library -INFO - Identified the browser as chrome. Launching the browser
+2020-09-18 00:01:04,447 - com.base_class.Library -INFO - Launched the free CRM Application
+2020-09-18 00:01:04,449 - com.base_class.Library -INFO - browser launched
+2020-09-18 00:04:21,501 - com.base_class.Library -INFO - Starting with Browser Set Up
+2020-09-18 00:04:26,019 - com.base_class.Library -INFO - Identified the browser as chrome. Launching the browser
+2020-09-18 00:04:30,694 - com.base_class.Library -INFO - Launched the free CRM Application
+2020-09-18 00:04:30,695 - com.base_class.Library -INFO - browser launched
+2020-09-18 00:04:37,320 - com.base_class.Library -INFO - Entered Username and Password
+2020-09-18 00:04:37,758 - com.base_class.Library -INFO - Screenshot was clicked after login
+2020-09-18 10:05:25,104 - com.base_class.Library -INFO - Starting with Browser Set Up
+2020-09-18 10:05:37,232 - com.base_class.Library -INFO - Identified the browser as chrome. Launching the browser
+2020-09-18 10:05:42,129 - com.base_class.Library -INFO - Launched the free CRM Application
+2020-09-18 10:05:42,129 - com.base_class.Library -INFO - Browser launched
+2020-09-18 10:05:52,321 - com.base_class.Library -INFO - login successful
+2020-09-18 10:07:04,393 - com.base_class.Library -INFO - Starting with Browser Set Up
+2020-09-18 10:07:09,714 - com.base_class.Library -INFO - Identified the browser as chrome. Launching the browser
+2020-09-18 10:07:15,312 - com.base_class.Library -INFO - Launched the free CRM Application
+2020-09-18 10:07:15,313 - com.base_class.Library -INFO - browser launched
+2020-09-18 10:07:23,447 - com.base_class.Library -INFO - Entered Username and Password
+2020-09-18 10:07:24,045 - com.base_class.Library -INFO - Screenshot was clicked after login
+2020-09-18 11:52:09,373 - com.base_class.Library -INFO - Starting with Browser Set Up
+2020-09-18 11:52:15,456 - com.base_class.Library -INFO - Identified the browser as chrome. Launching the browser
+2020-09-18 11:52:20,467 - com.base_class.Library -INFO - Launched the free CRM Application
+2020-09-18 11:52:20,468 - com.base_class.Library -INFO - browser launched
+2020-09-18 11:52:27,293 - com.base_class.Library -INFO - Entered Username and Password
+2020-09-18 11:52:27,792 - com.base_class.Library -INFO - Screenshot was clicked after login
+2020-09-18 12:32:20,724 - com.base_class.Library -INFO - Starting with Browser Set Up
+2020-09-18 12:32:25,362 - com.base_class.Library -INFO - Identified the browser as chrome. Launching the browser
+2020-09-18 12:32:30,118 - com.base_class.Library -INFO - Launched the free CRM Application
+2020-09-18 12:32:30,120 - com.base_class.Library -INFO - browser launched
+2020-09-18 12:32:38,296 - com.base_class.Library -INFO - Entered Username and Password
+2020-09-18 12:32:39,086 - com.base_class.Library -INFO - Screenshot was clicked after login
+2020-09-18 12:35:39,703 - com.base_class.Library -INFO - Starting with Browser Set Up
+2020-09-18 12:35:44,676 - com.base_class.Library -INFO - Identified the browser as chrome. Launching the browser
+2020-09-18 12:35:49,610 - com.base_class.Library -INFO - Launched the free CRM Application
+2020-09-18 12:35:49,613 - com.base_class.Library -INFO - browser launched
+2020-09-18 12:35:58,308 - com.base_class.Library -INFO - Entered Username and Password
+2020-09-18 12:35:58,730 - com.base_class.Library -INFO - Screenshot was clicked after login
+2020-09-18 12:38:25,653 - com.base_class.Library -INFO - Starting with Browser Set Up
+2020-09-18 12:38:30,522 - com.base_class.Library -INFO - Identified the browser as chrome. Launching the browser
+2020-09-18 12:38:35,515 - com.base_class.Library -INFO - Launched the free CRM Application
+2020-09-18 12:38:35,516 - com.base_class.Library -INFO - browser launched
+2020-09-18 12:38:43,662 - com.base_class.Library -INFO - Entered Username and Password
+2020-09-18 12:38:44,110 - com.base_class.Library -INFO - Screenshot was clicked after login
+2020-09-18 14:03:09,325 - com.base_class.Library -INFO - Starting with Browser Set Up
+2020-09-18 14:04:57,485 - com.base_class.Library -INFO - Starting with Browser Set Up
+2020-09-18 14:06:14,295 - com.base_class.Library -INFO - Starting with Browser Set Up
+2020-09-18 14:08:33,487 - com.base_class.Library -INFO - Starting with Browser Set Up
+2020-09-18 14:11:24,127 - com.base_class.Library -INFO - Starting with Browser Set Up
+2020-09-18 14:11:28,732 - com.base_class.Library -INFO - Identified the browser as chrome. Launching the browser
+2020-09-18 14:11:33,386 - com.base_class.Library -INFO - Launched the OrangeHRM Application
+2020-09-18 14:11:33,387 - com.base_class.Library -INFO - browser launched
+2020-09-18 14:11:41,320 - com.base_class.Library -INFO - Entered Username and Password
+2020-09-18 14:11:41,841 - com.base_class.Library -INFO - Screenshot was clicked after login
