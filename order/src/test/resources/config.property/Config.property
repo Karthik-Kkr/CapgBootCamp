@@ -1,0 +1,10 @@
+browser = chrome
+url = http://localhost:4200/
+
+oId = 101
+uId = 102
+pId = 103
+aId = 104
+odStatus = 105
+
+viewId = 101

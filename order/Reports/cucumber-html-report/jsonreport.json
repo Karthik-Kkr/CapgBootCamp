@@ -1,0 +1,51 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-30T15:00:52.594Z",
+        "line": 3,
+        "name": "To Test the Order Function of OrderMs",
+        "description": "",
+        "id": "to-test-the-orderms-application;to-test-the-order-function-of-orderms",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "To launch the browser and Navigate to the Url",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "To Enter the Order Details",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "To Click the Submit button",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To Test the OrderMs Application",
+    "description": "",
+    "id": "to-test-the-orderms-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/OrderMs.feature",
+    "tags": []
+  }
+]
